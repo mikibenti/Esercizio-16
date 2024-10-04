@@ -12,7 +12,7 @@
             for($i = 0; $i < $m; $i++) {
                 $table = $table . "<tr>";
                 for($j = 0; $j < $n; $j++) {
-                    $table = $table . "<td style = 'padding-inline: 10px 10px;'>($i,$j)</td>";
+                    $table = $table . "<td style = 'padding: 10px'>($i,$j)</td>";
                 }
                 $table = $table . "</tr>";
             }
